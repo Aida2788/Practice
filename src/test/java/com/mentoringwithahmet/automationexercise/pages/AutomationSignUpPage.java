@@ -17,7 +17,7 @@ public class AutomationSignUpPage {
     @FindBy(xpath= "//div//ul//li//a[.=' Signup / Login']")
     WebElement clickSignUpLoginButton;
 
-    @FindBy(xpath= "//h2[.='New User Signup!']")
+    @FindBy(xpath= "//h2[.='New User Signup!']") // just for Aida
     WebElement newSignUpHeader;
     @FindBy(xpath = "//input[@data-qa='signup-name']")
     WebElement username;
