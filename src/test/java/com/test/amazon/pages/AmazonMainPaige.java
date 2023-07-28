@@ -20,6 +20,8 @@ public class AmazonMainPaige {
     @FindBy(id = "twotabsearchtextbox")
     WebElement searchBar;
 
+    // use css selector
+
     @FindBy(xpath = "//span[contains(text(),'results for')]")
     WebElement result;
 
