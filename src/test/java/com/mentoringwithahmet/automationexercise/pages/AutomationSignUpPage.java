@@ -27,7 +27,7 @@ public class AutomationSignUpPage {
     @FindBy(xpath = "//button[@data-qa='signup-button']")
     WebElement signButton;
 
-
+  // sout  well look at it
 
 
 
